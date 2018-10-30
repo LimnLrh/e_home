@@ -1,0 +1,145 @@
+
+// .clearfix::after {
+//     content: '';
+//     display: block;
+//     clear: both;
+// }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+.header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 998;
+    width: 100%;
+    height: 50px;
+    background:#c50206;
+
+    .auto{
+        height: 50px;
+        width: 6.9rem;
+        // background: skyblue;
+        margin:0 auto;
+        display: flex;
+        justify-content:  space-between ;
+        // box-sizing: border-box;
+
+        .left{
+            width: 3rem;
+            height: 50px;
+            // float: left;
+            img{
+                width: 2.5rem;
+                padding-bottom: 10px;
+            }
+        }
+
+        .right{
+            width:1rem;
+            font-size: 20px;
+            // float:right;
+            padding-top: 10px;
+            a{
+                text-decoration: none;
+                color:white;
+            }
+            
+        }
+    }
+}
+
+.swiper{
+    display: block;
+    height:4.2rem;
+    width: 100%;
+    background:skyblue;
+    padding-top:42px;
+    .wrap{
+        position: relative;
+        .title{
+            font-size: 18px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            color:white;
+            font-weight: 800;
+            background: rgba(0,0,0,.5);
+        }
+    }
+    
+}
+
+//主菜单开始
+.main-menu{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    height:3.94rem;
+    background: url("./img/bt_bg.png") no-repeat;
+    -webkit-background-size:100%;
+    background-size: 100%;
+    width: 100%;
+    // display: block;
+    .row{
+       display: flex;
+       .menu-item{
+           flex: 1;
+           text-align: center;
+           font-size: 13px;
+           text-decoration: none;
+           color:#999999
+
+       }
+       img{
+            width:1rem;
+       }
+   }
+}
+
+.banner{
+    width:100%;
+    img{
+        display: block;
+        width:100%;
+    }
+    // padding-bottom: 1.12rem;
+}
+
+.footer-menu{
+    display: block;
+    width:100%;
+    display:flex;
+    height: 3.3rem;
+    background:url("./img/tese.png") no-repeat;
+    -webkit-background-size:100%;
+    background-size: 100%;
+    padding-bottom: 1rem;
+    .menu-left{
+        flex: 1;
+        // background:#c50206
+    }
+    .menu-right{
+        
+        flex: 2;
+        // background: gold;
+        .row{
+            height: 50%;
+            display: flex;
+            a{  
+                height:100%;
+                flex: 1;
+                // border:1px solid black;
+            }
+        }
+    }
+
+    
+}
+
+

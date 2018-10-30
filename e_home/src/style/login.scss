@@ -1,0 +1,40 @@
+.wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:#c7000a;
+    padding-top: 50px;
+    overflow-y: auto;
+    margin-top: -1px;
+    height: auto;
+    margin-bottom: -1px;
+}
+
+.logo-wrap{
+    width: 100%;
+    background:#c7000a;
+    width: 4rem;
+    margin: .6rem auto;
+}
+
+
+
+//输入控件
+.form{
+    width: 6rem;
+    margin:0 auto;
+    .input-wrap{
+        box-sizing: border-box;
+        input{
+            width: 95%;
+            padding: 8px 6px;
+            border:1px solid #ff0;
+            border-radius: 5px;
+            background: #c7000a;
+            font-size: 14px;
+            color: white;
+        }
+    }
+}
